@@ -1,0 +1,23 @@
+Pin#	PIN NAME	TYPE		DESCRIPTION
+1	VCC		POWER		3.3v Power supply
+2	GND		Ground		Power ground
+3	SCL		Input		Two-Wire Serial Interface Clock
+4	SDATA		Bi-directional	Two-Wire Serial Interface Data I/O
+5
+	VSYNC
+	Output		Active 	High: Frame Valid; indicates active frame
+6	HREF		Output		Active High: Line/Data Valid; indicates active pixels
+7	PCLK		Output		Pixel Clock output from sensor
+8	XCLK		Input		Master Clock into Sensor
+9	DOUT7		Output		Pixel Data Output 7 (MSB)
+10	DOUT6		Output		Pixel Data Output 6
+11	DOUT5		Output		Pixel Data Output 5
+12	DOUT4		Output		Pixel Data Output 4
+13	DOUT3		Output		Pixel Data Output 3
+14	DOUT2		Output		Pixel Data Output 2
+15	DOUT1		Output		Pixel Data Output 1
+16	DOUT0		Output		Pixel Data Output 0 (LSB)
+17	NC		NC		NC
+18	NC		NC		NC
+19	POWER_EN	Input		Sensor POWER enable signal, active high
+20	PWDN		Input		Power down input, active high
