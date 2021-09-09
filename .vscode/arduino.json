@@ -1,4 +1,6 @@
 {
     "board": "arduino:mbed_nano:nano33ble",
-    "programmer": "arduino:cmsis-dap"
+    "programmer": "arduino:cmsis-dap",
+    "sketch": "serialTest/serialTest.ino",
+    "port": "/dev/ttyACM0"
 }

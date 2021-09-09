@@ -28,7 +28,7 @@
   This example code is in the public domain.
 */
 
-#include <Arduino_OV767X.h>
+#include "Arduino_OV767X.h"
 
 int bytesPerFrame;
 

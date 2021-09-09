@@ -16,7 +16,8 @@ byte image[176 * 144 * 2]; // QCIF: 176x144 x 2 bytes per pixel (RGB565)
 int bytesPerFrame;
 
 void setup() {
-  Serial.begin(9600);
+//  Serial.begin(9600);
+  Serial.begin(115200);
   while (!Serial);
 
   initializeShield();

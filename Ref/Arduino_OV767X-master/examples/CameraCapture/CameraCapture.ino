@@ -34,9 +34,10 @@
   This example code is in the public domain.
 */
 
-#include <Arduino_OV767X.h>
+#include "Arduino_OV767X.h"
 
-unsigned short pixels[176 * 144]; // QCIF: 176x144 X 2 bytes per pixel (RGB565)
+//unsigned short pixels[176 * 144]; // QCIF: 176x144 X 2 bytes per pixel (RGB565)/
+unsigned short pixels[50 * 50]; // QCIF: 176x144 X 2 bytes per pixel (RGB565)/
 
 void setup() {
   Serial.begin(9600);

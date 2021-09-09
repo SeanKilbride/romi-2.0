@@ -8,7 +8,7 @@
   This example code is in the public domain.
 */
 
-#include <TinyMLShield.h>
+#include "TinyMLShield.h"
 
 int bytesPerFrame;
 
